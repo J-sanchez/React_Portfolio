@@ -1,7 +1,7 @@
 import React, { useState }  from 'react';
 import About from './components/About';
 import Header from './components/Header';
-import Footer from './components/Footer';
+import Footer from './components/Portfolio';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
