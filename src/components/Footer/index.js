@@ -1,21 +1,53 @@
 import React from 'react';
+import budgetImage from "../../assets/cover/budget.jpg";
+import newsOnTheBalance from "../../assets/cover/newsOnTheBalance.jpg";
+import workDayScheduler from "../../assets/cover/workDayScheduler.jpg";
+import runBuddy from "../../assets/cover/runBuddy.jpg";
+import privateReserve from "../../assets/cover/privateReserve.jpg";
+import photoPort from "../../assets/cover/photoPort.jpg";
+import bookSearch from "../../assets/cover/bookSearchImg.png"
 
-function Header(props) {
+function Porfolio() {
     return (
-        <section className={"my-5 bg-light text-dark"}>
-            <div className="container ">
+        <section className={"my-5"}>
+            <div className="container">
                 <div className="row">
-                    <div onClick={() => props.setCurrentPage('about')} className="col-sm hovering">
-                        About
+                    <div className="col-sm">
+                        <a href="https://github.com" target="_blank" rel="noreferrer">
+                        <img src={} className="my-2" style={{ width: "100%" }} alt="" />
+                        </a>
                     </div>
-                    <div onClick={() => props.setCurrentPage('portfolio')} className="col-sm hovering">
-                        Portfolio
+                    <div className="col-sm">
+                        <a href="https://github.com" target="_blank" rel="noreferrer">
+                        <img src={} className="my-2" style={{ width: "100%" }} alt="" />
+                        </a>
                     </div>
-                    <div onClick={() => props.setCurrentPage('contact')} className="col-sm hovering">
-                        Contact
+                    <div className="col-sm">
+                        <a href="https://github.com" target="_blank" rel="noreferrer">
+                        <img src={} className="my-2" style={{ width: "100%" }} alt="" />
+                        </a>
                     </div>
-                    <div onClick={() => props.setCurrentPage('resume')} className="col-sm hovering">
-                        Resume
+                    <div className="col-sm">
+                        <a href="https://github.com" target="_blank" rel="noreferrer">
+                        <img src={} className="my-2" style={{ width: "100%" }} alt="" />
+                        </a>
+                    </div>  
+                </div>
+                <div className="row">
+                    <div className="col-sm">
+                        <a href="https://github.com" target="_blank" rel="noreferrer">
+                        <img src={} className="my-2" style={{ width: "100%" }} alt="Work Day Scheduler" />
+                        </a>
+                    </div>
+                    <div className="col-sm">
+                        <a href="https://github.com" target="_blank" rel="noreferrer">
+                        <img src={} className="my-2" style={{ width: "100%" }} alt="Run Buddy" />
+                        </a>
+                    </div>
+                    <div className="col-sm">
+                        <a href="https://github.com" target="_blank" rel="noreferrer">
+                        <img src={} className="my-2" style={{ width: "100%" }} alt="portfolio" />
+                        </a>
                     </div>
                 </div>
             </div>
@@ -25,4 +57,4 @@ function Header(props) {
       );
 }
 
-export default Header;
+export default Porfolio;
