@@ -6,13 +6,10 @@ function Footer(props) {
             <div className="container">
                 <div className="row">
                     <div className="col-sm">
-                        <a target="_blank" rel='noopener noreferrer' href="">GitHub</a> 
+                        <a target="_blank" rel='noopener noreferrer' href="https://github.com/J-sanchez">GitHub</a> 
                     </div>
                     <div className="col-sm">
-                      <a target="_blank" rel='noopener noreferrer' href="">LinkedIn</a>
-                    </div>
-                    <div className="col-sm">
-                      <a target="_blank" rel='noopener noreferrer' href="">Instagram</a>
+                      <a target="_blank" rel='noopener noreferrer' >Instagram</a>
                     </div>
                 </div>
             </div>

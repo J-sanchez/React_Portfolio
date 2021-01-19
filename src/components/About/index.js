@@ -19,12 +19,8 @@ function About(props) {
                 <div className= "row">
                 <p>Hello there. </p>
 
-                    <p>
-                        Hello, My name is Jonathan Sanchez. I am a student who is working to obtain a B.S in Mathematical Sciences majoring in Computer Science.</p>
-                    <p>
-                        When I was young my parents instilled in me that respect and education is key. 
-                    </p>
-                    <p>I love to spend time with my friends and especially my.</p>
+                <p>Hello, 
+            My name is Jonathan C. Sanchez. I am currently in my 3rd year of college on route to obtaining a BS in Computer Science. I like to play baseball and enjoy the outdoors. From a young age my parents instilled in me that education is key. My father used to tell me not to work the "pala" (shovel) my whole life and isntead allow my brain to do the work. Now that I am older I understand and am grateful that he instilled this in me. I also love spending time with my family and friends. I love to laugh, share stories, and make others laugh.</p>
                 </div>
             </div>
       );

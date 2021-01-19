@@ -1,5 +1,5 @@
 import React from 'react';
-// import budgetImage from "../../assets/cover/budget.jpg";
+// import NOTB from "../../assets/cover/budget.jpg";
 // import newsOnTheBalance from "../../assets/cover/newsOnTheBalance.jpg";
 // import workDayScheduler from "../../assets/cover/workDayScheduler.jpg";
 // import runBuddy from "../../assets/cover/runBuddy.jpg";
@@ -13,7 +13,12 @@ function Porfolio() {
             <div className="container">
                 <div className="row">
                     <div className="col-sm">
-                        <a href="https://github.com" target="_blank" rel="noreferrer">
+                        <a href="https://jesusmanteca.github.io/News-On-The-Balance/#" target="_blank" rel="noreferrer">
+                        <img src={NOTB} className="my-2" style={{ width: "100%" }} alt="" />
+                        </a>
+                    </div>
+                    <div className="col-sm">
+                        <a href="https://j-sanchez.github.io/HTML.CSS-Git.Challenge/" target="_blank" rel="noreferrer">
                         <img src={} className="my-2" style={{ width: "100%" }} alt="" />
                         </a>
                     </div>
@@ -23,12 +28,7 @@ function Porfolio() {
                         </a>
                     </div>
                     <div className="col-sm">
-                        <a href="https://github.com" target="_blank" rel="noreferrer">
-                        <img src={} className="my-2" style={{ width: "100%" }} alt="" />
-                        </a>
-                    </div>
-                    <div className="col-sm">
-                        <a href="https://github.com" target="_blank" rel="noreferrer">
+                        <a href="https://j-sanchez.github.io/Run-Buddy/" target="_blank" rel="noreferrer">
                         <img src={} className="my-2" style={{ width: "100%" }} alt="" />
                         </a>
                     </div>  
