@@ -8,9 +8,6 @@ function Footer(props) {
                     <div className="col-sm">
                         <a target="_blank" rel='noopener noreferrer' href="https://github.com/J-sanchez">GitHub</a> 
                     </div>
-                    <div className="col-sm">
-                      <a target="_blank" rel='noopener noreferrer' >Instagram</a>
-                    </div>
                 </div>
             </div>
             

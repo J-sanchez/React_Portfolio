@@ -1,5 +1,5 @@
 import React from 'react';
-//import coverImage from "../../assets/cover/";
+import coverImage from "../../images/JCS.JPEG";
 
 function About(props) {
     return (
@@ -12,7 +12,7 @@ function About(props) {
                     <div className="col-sm">
                         <h1 id="about">Jonathan C. Sanchez</h1>
                         <h4 className="text-muted">Student On The Run</h4>
-                        <h4 className="text-muted"></h4>
+                        <h4 className="text-muted">Home</h4>
                         <h4 className="text-muted">Family</h4>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-// import NOTB from "../../assets/cover/budget.jpg";
+import NOTB from "../../images/JCS.JPEG";
 // import newsOnTheBalance from "../../assets/cover/newsOnTheBalance.jpg";
 // import workDayScheduler from "../../assets/cover/workDayScheduler.jpg";
 // import runBuddy from "../../assets/cover/runBuddy.jpg";
@@ -17,7 +17,7 @@ function Porfolio() {
                         <img src={NOTB} className="my-2" style={{ width: "100%" }} alt="" />
                         </a>
                     </div>
-                    <div className="col-sm">
+                    {/* <div className="col-sm">
                         <a href="https://j-sanchez.github.io/HTML.CSS-Git.Challenge/" target="_blank" rel="noreferrer">
                         <img src={} className="my-2" style={{ width: "100%" }} alt="" />
                         </a>
@@ -48,7 +48,7 @@ function Porfolio() {
                         <a href="https://github.com" target="_blank" rel="noreferrer">
                         <img src={} className="my-2" style={{ width: "100%" }} alt="portfolio" />
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             

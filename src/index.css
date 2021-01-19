@@ -142,7 +142,7 @@ input {
 
 input:focus {
   border: 1px solid var(--secondary);
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+  box-shadow: 0 0 .25rem rgba(0, 110, 255, 0.5);
 }
 
 li {
@@ -242,7 +242,7 @@ textarea {
 }
 
 .modalBackdrop {
-	background: rgba(0, 0, 0, .65);
+	background: rgba(0, 119, 255, 0.65);
 	bottom: 0;
 	left: 0;
 	overflow: auto;
